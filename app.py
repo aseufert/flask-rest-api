@@ -9,5 +9,5 @@ api = Api(api_bp)
 
 # Route
 api.add_resource(Hello, '/hello')
-api.add_resource(CategoryResource, '/category')
-api.add_resource(CommentResource, '/comment')
+api.add_resource(CategoryResource, '/categories')
+api.add_resource(CommentResource, '/comments')
